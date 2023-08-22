@@ -1,4 +1,4 @@
-# super-post-api-server
+# Super Post REST API server
 The API server for the Super Post app.<br />
 The server supports the following operations:<br />
 * Create: POST - Create a new post.
