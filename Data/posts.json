@@ -1,29 +1,29 @@
 [
   {
     "Id": 1,
-    "Title": "pic 1",
-    "Description": "gggg",
+    "Title": "Ikea Sofa",
+    "Description": "Brand new Ikea sofa in perfect condition. Selling due to inaccurate measurements.",
+    "Category": "Furniture",
+    "Date": "2023/08/22",
+    "Location": "Tel Aviv",
+    "Picture": "https://www.ikea.com/il/he/images/products/linanaes-3-seat-sofa-with-chaise-longue-vissle-beige__1013905_pe829459_s5.jpg"
+  },
+  {
+    "Id": 2,
+    "Title": "Hyundai i10 2020",
+    "Description": "Great little car to get around. 3 years old with only 72,000 km. used lightly and in great condition.",
     "Category": "Vehicles",
     "Date": "2023/08/22",
-    "Location": "paris",
-    "Picture": "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
+    "Location": "Ganei Tikva",
+    "Picture": "https://www.autocom.co.il/wp-content/uploads/2020/08/aahu60-rotated-e1607010565204.jpg"
   },
   {
     "Id": 3,
-    "Title": "pic 3",
-    "Description": "gggg",
-    "Category": "Furniture",
+    "Title": "4 Room Apartment",
+    "Description": "4 Room apartment perfect for families. Includes balcony, parking, and gym. For more details please contact.",
+    "Category": "Rentals",
     "Date": "2023/08/22",
-    "Location": "ramot",
-    "Picture": "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
-  },
-  {
-    "Id": 4,
-    "Title": "TV",
-    "Description": "hey there",
-    "Category": "Electronics",
-    "Date": "2023/08/22",
-    "Location": "ramat gan",
-    "Picture": "blob:http://localhost:3000/1964527e-d9b1-4299-af67-ba95c9a04be2"
+    "Location": "Beer Sheva",
+    "Picture": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202861210.jpg?k=3a233e4f382f80d4b89a49bc8bdb259996a5228304015d342dea468686a7f555&o=&hp=1"
   }
 ]
