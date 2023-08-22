@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
 using Super_Post.Models;
 
@@ -41,7 +40,10 @@ namespace Super_Post.Controllers
             }
 
             List<Post> posts = LoadPostsFromJsonFile();
-            post.Id = posts.Count + 1;
+
+            int maxId = posts.Count > 0 ? posts.Max(p => p.Id) : 0;
+
+            post.Id = maxId + 1;
             DateTime currentDate = DateTime.Now;
             post.Date = currentDate.ToString("yyyy/MM/dd");
             posts.Add(post);
@@ -69,7 +71,6 @@ namespace Super_Post.Controllers
             existingPost.Title = updatedPost.Title;
             existingPost.Description = updatedPost.Description;
             existingPost.Category = updatedPost.Category;
-            //existingPost.Date = updatedPost.Date;
             existingPost.Location = updatedPost.Location;
             existingPost.Picture = updatedPost.Picture;
 
