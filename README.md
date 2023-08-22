@@ -2,7 +2,6 @@
 The API server for the Super Post app.<br />
 The server supports the following operations:<br />
 * Create: POST - Create a new post.
-* Create a new post.
 * Read: GET - Retrieve information about the current posts.
 * Update: PUT - Modify an existing post.
 * Delete: DELETE - Remove a post.
