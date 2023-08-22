@@ -4,7 +4,8 @@ The server supports the following operations:<br />
 * Create: POST - Create a new post.
 * Read: GET - Retrieve information about the current posts.
 * Update: PUT - Modify an existing post.
-* Delete: DELETE - Remove a post.<br /><br />
+* Delete: DELETE - Remove a post.
+
 In addition, the server maintains a local JSON file for saving the current posts. 
 ## Instructions:
 Clone the code.<br />
